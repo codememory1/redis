@@ -10,7 +10,6 @@
     ],
     "require": {
         "php": ">=8.0",
-        "codememory/global-config": "^1.1.1",
         "codememory/environment": "^1.0.2",
         "ext-redis": "*"
     },
