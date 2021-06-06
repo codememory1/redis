@@ -1,0 +1,25 @@
+{
+    "name": "codememory/redis",
+    "description": "Redis",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Danil",
+            "email": "kostynd1@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "codememory/global-config": "^1.1.1",
+        "codememory/environment": "^1.0.2",
+        "ext-redis": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codememory\\Database\\Redis\\": ""
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.2"
+    }
+}
