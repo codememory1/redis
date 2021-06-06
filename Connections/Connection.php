@@ -1,8 +1,7 @@
 <?php
 
-namespace Codememory\Database\Redis;
+namespace Codememory\Database\Redis\Connections;
 
-use Codememory\Database\Redis\Connections\ConnectionData;
 use Codememory\Database\Redis\Exceptions\IncorrectRedisHostOrPortException;
 use Codememory\Database\Redis\Exceptions\IncorrectRedisPasswordOrUsernameException;
 use Codememory\Database\Redis\Interfaces\ConnectionDataInterface;
