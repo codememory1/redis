@@ -45,6 +45,8 @@ class RedisManager implements RedisManagerInterface
     public function __construct(ConnectionRedisInterface $connectionRedis)
     {
 
+	$connectionRedis->makeConnection();
+	
         $this->connection = $connectionRedis;
 
         if (!$connectionRedis->isConnect()) {
